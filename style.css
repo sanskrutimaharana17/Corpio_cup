@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 130, 226);
+}
+
+li {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(167, 119, 159);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 28px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 28px;
+    color: black;
+}
+
+.center img {
+    height: 20cm;
+    width: 45cm;
+}
+
+.floatleft {
+    float: left;
+    clear: left;
+    margin-right: 12px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: 'Lucida Sans';
+}
